@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="yulelogBase"
+      stroke-width="3"
+      stroke-linecap="round"
+      d="
+        M 20,8
+        l 260,0
+        s 40,60 0,110
+        l -260,0
+        s -40,-50 0,-110
+      " />
+    <path id="yulelogSuji"
+      stroke-width="4"
+      stroke-linecap="round"
+      fill="transparent"
+      d="
+        M 17,16 l 220,0
+        M 10,30 l 90,0
+        M 151,34 l 140,0
+        M 294,47 l -50,0
+        M 30,50 l 180,0
+        M 60,62 l 220,0
+        M 4,78 l 130,0
+        M 160,81 l 80,0
+        M 248,89 l 45,0
+        M 288,104 l -220,0
+        M 40,112 l 150,0
+      " />
+    <path id="yulelogEda"
+      stroke-width="3"
+      stroke-linecap="round"
+      d="
+        M 273,11
+        l -2,-6
+        s -12,-6 -20,0
+        l 1,5
+      " />
+  </defs>
+  <symbol viewBox="0 0 320 120">
+    <g id="yulelog">
+      <use xlink:href="#yulelogBase"
+        stroke="#532E14"
+        fill="#8D4802"
+      />
+      <use xlink:href="#yulelogSuji"
+        stroke="#532E14"
+      />
+      <use xlink:href="#yulelogEda"
+        stroke="#532E14"
+        fill="#8D4802"
+      />
+    </g>
+  </symbol>
+  <use xlink:href="#yulelog" />
+</svg>
